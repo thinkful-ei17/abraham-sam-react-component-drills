@@ -12,7 +12,7 @@ export default function NavigationBar(props){
 
   return(
     <div className="navigation-bar">
-    <h3>props.title</h3>
+    <h3>{props.title}</h3>
     {links}
      </div>
   );
